@@ -145,7 +145,7 @@ st.pyplot(fig)
     # =============================
     # BIỂU ĐỒ NẾN
     # =============================
-    st.subheader("🕯️ Biểu đồ nến")
+st.subheader("🕯️ Biểu đồ nến")
 
     fig2, _ = mpf.plot(
         df,
