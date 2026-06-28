@@ -167,7 +167,7 @@ close_prices = df["Close"].dropna().reset_index(drop=True)
 
 result = mk.original_test(close_prices)
 
-    st.subheader("📊 Kết quả kiểm định Mann-Kendall")
+st.subheader("📊 Kết quả kiểm định Mann-Kendall")
 
     col1, col2 = st.columns(2)
 
