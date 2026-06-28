@@ -165,7 +165,7 @@ st.pyplot(fig2)
     # =============================
 close_prices = df["Close"].dropna().reset_index(drop=True)
 
-    result = mk.original_test(close_prices)
+result = mk.original_test(close_prices)
 
     st.subheader("📊 Kết quả kiểm định Mann-Kendall")
 
