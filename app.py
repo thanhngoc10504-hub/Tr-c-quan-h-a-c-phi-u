@@ -140,7 +140,7 @@ ax[1].grid(True)
 st.image("logo.jpg.jfif")
 plt.tight_layout()
 
-    st.pyplot(fig)
+st.pyplot(fig)
 
     # =============================
     # BIỂU ĐỒ NẾN
