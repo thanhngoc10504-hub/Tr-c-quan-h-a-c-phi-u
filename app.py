@@ -158,7 +158,7 @@ fig2, _ = mpf.plot(
         returnfig=True
     )
 
-    st.pyplot(fig2)
+st.pyplot(fig2)
 
     # =============================
     # KIỂM ĐỊNH MANN-KENDALL
