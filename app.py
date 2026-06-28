@@ -18,7 +18,7 @@ st.set_page_config(
 # =============================
 # LOGO
 # =============================
-st.image("logo.jpg.jpg")
+st.image("logo.jpg")
 
 # =============================
 # TIÊU ĐỀ
@@ -137,9 +137,9 @@ if run:
     ax[1].set_ylabel("Return")
     ax[1].set_xlabel("Date")
     ax[1].legend()
-ax[1].grid(True)
+    ax[1].grid(True)
 
-plt.tight_layout()
+    plt.tight_layout()
 
     st.pyplot(fig)
 
