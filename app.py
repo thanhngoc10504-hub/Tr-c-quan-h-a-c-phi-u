@@ -171,15 +171,15 @@ st.subheader("📊 Kết quả kiểm định Mann-Kendall")
 
 col1, col2 = st.columns(2)
 
-    with col1:
+with col1:
         st.metric("Trend", result.trend)
         st.metric("Tau", f"{result.Tau:.4f}")
 
-    with col2:
+with col2:
         st.metric("p-value", f"{result.p:.6f}")
         st.metric("Variance S", f"{result.var_s:.2f}")
 
-    st.markdown("---")
+st.markdown("---")
 
     if result.p < 0.05:
         if result.trend == "increasing":
