@@ -139,7 +139,7 @@ if run:
     ax[1].legend()
 ax[1].grid(True)
 
-    plt.tight_layout()
+plt.tight_layout()
 
     st.pyplot(fig)
 
