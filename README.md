@@ -1,1 +1,1 @@
-# Tr-c-quan-h-a-c-phi-u
+Trực quan cổ phiếu
