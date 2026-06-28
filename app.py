@@ -147,7 +147,7 @@ st.pyplot(fig)
     # =============================
 st.subheader("🕯️ Biểu đồ nến")
 
-    fig2, _ = mpf.plot(
+fig2, _ = mpf.plot(
         df,
         type="candle",
         mav=(10, 20),
