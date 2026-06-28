@@ -188,5 +188,5 @@ if result.p < 0.05:
             st.success("Có xu hướng **GIẢM** có ý nghĩa thống kê (p < 0.05).")
         else:
             st.success("Có xu hướng đáng kể về mặt thống kê.")
-    else:
+else:
         st.warning("Không phát hiện xu hướng có ý nghĩa thống kê (p ≥ 0.05).")
