@@ -181,7 +181,7 @@ with col2:
 
 st.markdown("---")
 
-    if result.p < 0.05:
+if result.p < 0.05:
         if result.trend == "increasing":
             st.success("Có xu hướng **TĂNG** có ý nghĩa thống kê (p < 0.05).")
         elif result.trend == "decreasing":
