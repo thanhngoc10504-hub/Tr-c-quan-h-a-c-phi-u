@@ -163,7 +163,7 @@ st.pyplot(fig2)
     # =============================
     # KIỂM ĐỊNH MANN-KENDALL
     # =============================
-    close_prices = df["Close"].dropna().reset_index(drop=True)
+close_prices = df["Close"].dropna().reset_index(drop=True)
 
     result = mk.original_test(close_prices)
 
