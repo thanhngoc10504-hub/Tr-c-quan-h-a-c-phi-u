@@ -5,7 +5,7 @@ import numpy as np
 import pymannkendall as mk
 import matplotlib.pyplot as plt
 import mplfinance as mpf
-st.image("logo.jpg")
+st.image("logo.jpg.jpg")
 # =============================
 # CẤU HÌNH TRANG
 # =============================
